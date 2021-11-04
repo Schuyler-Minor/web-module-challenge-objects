@@ -106,6 +106,7 @@ Write a function that creates an object with name, rating, feedback, add the new
 
 function addReview(array){
   
+  
 }
 
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 6: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀
@@ -120,10 +121,10 @@ Use the getReviewByIndex function below to do the following:
 
 
 function getReviewByIndex(array, number) {
-  return `${array[number].name} gave the restaurant a 5 star review, and thier feedback was: ${array[number].feedback}`;
+  return `${array[number].name} gave the restaurant a ${array[number].rating} star review, and their feedback was: ${array[number].feedback}`;
 }
 
-console.log(getReviewByIndex(reviews, 0));
+console.log('task 6:', getReviewByIndex(reviews, 0));
   
 
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 7: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 
@@ -156,13 +157,13 @@ Use the getReviewsByRating function below to do the following:
   For example: getReviewByRating(reviews, 4) would return these reviews in the 4 range (4-4.9):
   [
     {name: "Miranda", rating: 4, feedback:"fun trivia and cool vibes"},
-    {name: "Wen", rating: 4.5, feedback:"I don't leave my house often, but when I do, it's for this place. Highly reccomend."},
+    {name: "Wen", rating: 4.5, feedback:"I don't leave my house often, but when I do, it's for this place. Highly recommend."},
     {name:"Lauren", rating: 4, feedback: "Absolutely love that they have karaoke Fridays! Food and drink selection is okay."}
   ]
 */
 
- function getReviewByRating(/* code here */) {
-    /* code here */
+ function getReviewByRating() {
+    return 
   }
 
   
